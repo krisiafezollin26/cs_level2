@@ -10,8 +10,6 @@ Level 2 forecasting handles **escalated tickets** that cannot be resolved throug
 
 These tickets are typically flagged during Level 1 checks or submitted directly by strategy, planning, or analytics teams.
 
----
-
 ## 📂 Repository Structure
 
 ### `Rolling 52 wk main file`
@@ -29,17 +27,6 @@ Used for re-running or adjusting seasonality and baseline calculations.
 ### `Onboarding vol files`
 Dedicated files for forecasting new volume entries. 
 Requires manual inputs or strategic assumptions.
-
-
----
-
-## ⚠️ Important Notes
-
-- **Always double-check data sources**, especially Google Sheets IDs and Metabase connections.
-- Avoid publishing updates to live dashboards unless reviewed and confirmed.
-- Maintain clear documentation for all overrides, assumptions, and escalated changes.
-
----
 
 ## ✅ When to Use This Pipeline
 
